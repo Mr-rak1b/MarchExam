@@ -22,5 +22,14 @@ public class Path {
     }
 
 
+    @FindBy (xpath = "//*[@id=\"ac-globalfooter\"]/div/section[1]/ul/li[12]/a")
+    WebElement supportlink;
+
+    public String support()
+    {
+        String Support = supportlink.getText();
+        return Support;
+    }
+
 
 }

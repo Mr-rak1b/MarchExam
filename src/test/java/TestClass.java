@@ -27,4 +27,12 @@ public class TestClass extends DriverSetup {
 
         Assert.assertEquals(homepage.mac(),"MacBook Air");
     }
+
+    @Test
+    public void TestSupport()
+    {
+        String expt = "support.apple.com/kb/HT209218";
+        Assert.assertEquals(expt,homepage.support());
+    }
+
 }
