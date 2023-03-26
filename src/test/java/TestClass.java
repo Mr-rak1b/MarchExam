@@ -35,9 +35,5 @@ public class TestClass extends DriverSetup {
         Assert.assertEquals(expt,homepage.support());
     }
 
-    @Test
-    public void none()
-    {
 
-    }
 }
