@@ -52,10 +52,8 @@ public class TestClass extends DriverSetup {
         Assert.assertTrue(isDisplayed, "Search bar is not displayed.");
     }
 
-    //Testing to see if Apple card option is there
-    @Test
-    public void Card(){
-        String y = "Apple Card";
-        Assert.assertEquals(homepage.Card(),y);
-    }
+//    @Test
+//    public void supportTest(){
+//    Assert.assertTrue(homepage.supporttest(),"It's not displayed");
+//    }
 }

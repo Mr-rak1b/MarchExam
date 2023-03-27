@@ -1,6 +1,5 @@
 package org.example.File;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -53,4 +52,13 @@ public class Path {
        String x = card.getText();
        return x;
     }
+
+    @FindBy (xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[10]/ul/li[1]/a/span[1]")
+    WebElement Supporttest;
+
+//    public boolean supporttest(){
+//        Supporttest.click();
+//        Supporttest.isEnabled();
+//        return true;
+//    }
 }
