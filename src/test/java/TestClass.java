@@ -21,13 +21,22 @@ public class TestClass extends DriverSetup {
         driver.quit();
     }
 
+    //Testing to see if the Homepage load up
     @Test
-    public void Mac()
+    void title()
     {
-
-        Assert.assertEquals(homepage.mac(),"MacBook Air");
+        String Title = "https://www.apple.com/";
+        String expted = driver.getCurrentUrl();
+        Assert.assertEquals(expted,Title);
     }
 
+    //Testing to see if MacbookAir logo is there
+    @Test
+    public void Mac()
+    {Assert.assertEquals(homepage.mac(),"MacBook Air");}
+
+
+    //Testing to see if support option is there
     @Test
     public void TestSupport()
     {
@@ -36,4 +45,17 @@ public class TestClass extends DriverSetup {
     }
 
 
+    //Testing to see if the search bar is displayed or not
+    @Test
+    public void testSearchBarIsDisplayed() {
+        boolean isDisplayed = homepage.search();
+        Assert.assertTrue(isDisplayed, "Search bar is not displayed.");
+    }
+
+    //Testing to see if Apple card option is there
+    @Test
+    public void Card(){
+        String y = "Apple Card";
+        Assert.assertEquals(homepage.Card(),y);
+    }
 }

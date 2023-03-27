@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3968c4-3bfc-43f8-b710-ac1bc9d6d776" name="Changes" comment="" />
+    <list default="true" id="cf3968c4-3bfc-43f8-b710-ac1bc9d6d776" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,12 +54,24 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
+  <component name="RunManager" selected="TestNG.TestClass.Card">
     <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.Card" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="March.end.project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="Card" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -73,11 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.TestSupport" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.SearchBar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="TestSupport" />
+      <option name="METHOD_NAME" value="SearchBar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.testSearchBarIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="March.end.project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="testSearchBarIsDisplayed" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,9 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="TestNG.TestClass.TestSupport" />
+        <item itemvalue="TestNG.TestClass.Card" />
+        <item itemvalue="TestNG.TestClass.testSearchBarIsDisplayed" />
+        <item itemvalue="TestNG.TestClass.SearchBar" />
         <item itemvalue="TestNG.TestClass.Mac" />
+        <item itemvalue="TestNG.TestClass" />
       </list>
     </recent_temporary>
   </component>
