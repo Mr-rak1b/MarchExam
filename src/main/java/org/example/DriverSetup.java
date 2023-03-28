@@ -4,6 +4,8 @@ import org.example.File.Path;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import javax.swing.*;
+
 public class DriverSetup {
 
     public WebDriver driver;
@@ -13,5 +15,7 @@ public class DriverSetup {
         driver = new ChromeDriver();
         driver.get(url);
 
+
     }
+
 }

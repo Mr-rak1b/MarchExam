@@ -3,6 +3,8 @@ package org.example.File;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.ArrayList;
+
 
 public class Path {
 
@@ -53,12 +55,48 @@ public class Path {
        return x;
     }
 
+    //Test to see if get support Start now is visible
     @FindBy (xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[10]/ul/li[1]/a/span[1]")
     WebElement Supporttest;
+    @FindBy(xpath = "/html/body/div[6]/section[3]/div/div/div[3]/div[1]/div/div/ul/li/a")
+    WebElement getsupport;
 
-//    public boolean supporttest(){
-//        Supporttest.click();
-//        Supporttest.isEnabled();
-//        return true;
-//    }
+    public boolean supportTest(){
+        Supporttest.click();
+        getsupport.isDisplayed();
+            return true;
+    }
+
+    //Test to see if Genius bar is there
+    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-storeservices\"]/li[2]/a")
+    WebElement Geniusbar;
+
+    public String geniusbar(){
+       String x = Geniusbar.getText();
+       return x;
+    }
+
+
+    //Test to see if icloud option is enable
+    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-accounts\"]/li[3]/a")
+    WebElement icloud;
+
+   public boolean Icloud(){
+       icloud.isEnabled();
+       return true;
+   }
+
+    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-products\"]")
+    ArrayList<WebElement> footerShopandlearn;
+
+    public ArrayList<String> getFooterTextArrayList() {
+        ArrayList<String> textList = new ArrayList<String>();
+        for (WebElement element : footerShopandlearn) {
+            textList.add(element.getText());
+        }
+        return textList;
+    }
+
+
+
 }

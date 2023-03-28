@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf3968c4-3bfc-43f8-b710-ac1bc9d6d776" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
     </list>
@@ -40,38 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/mr_rak1b/IdeaProjects/March.end.project/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mr_rak1b/IdeaProjects/March.end.project/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass.supportTest">
-    <configuration name="Path.support" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.File.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.File" />
-      <option name="MAIN_CLASS_NAME" value="org.example.File.Path" />
-      <option name="METHOD_NAME" value="support" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestClass.Footershopandlearn">
     <configuration name="TestClass.Card" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,11 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.support" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.Footershopandlearn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="support" />
+      <option name="METHOD_NAME" value="Footershopandlearn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,11 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.supportTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.Icloud" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="supportTest" />
+      <option name="METHOD_NAME" value="Icloud" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,11 +91,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.testSearchBarIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.Mac" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="testSearchBarIsDisplayed" />
+      <option name="METHOD_NAME" value="Mac" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.geniusBar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="March.end.project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="geniusBar" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass.supportTest" />
-        <item itemvalue="TestNG.TestClass.support" />
-        <item itemvalue="TestNG.Path.support" />
+        <item itemvalue="TestNG.TestClass.Footershopandlearn" />
+        <item itemvalue="TestNG.TestClass.Mac" />
+        <item itemvalue="TestNG.TestClass.Icloud" />
+        <item itemvalue="TestNG.TestClass.geniusBar" />
         <item itemvalue="TestNG.TestClass.Card" />
-        <item itemvalue="TestNG.TestClass.testSearchBarIsDisplayed" />
       </list>
     </recent_temporary>
   </component>
