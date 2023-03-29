@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf3968c4-3bfc-43f8-b710-ac1bc9d6d776" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
     </list>
@@ -54,12 +53,12 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass.Footershopandlearn">
-    <configuration name="TestClass.Card" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestClass.IphoneAccessoriesTextTest">
+    <configuration name="TestClass.IPOD" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="Card" />
+      <option name="METHOD_NAME" value="IPOD" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -67,11 +66,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.Footershopandlearn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.Iphone14Pro" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="Footershopandlearn" />
+      <option name="METHOD_NAME" value="Iphone14Pro" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -79,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.Icloud" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.IphoneAccessoriesTextTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="Icloud" />
+      <option name="METHOD_NAME" value="IphoneAccessoriesTextTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.Mac" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.IphoneBuyOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="Mac" />
+      <option name="METHOD_NAME" value="IphoneBuyOption" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,11 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.geniusBar" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.TestSupport" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="geniusBar" />
+      <option name="METHOD_NAME" value="TestSupport" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass.Footershopandlearn" />
-        <item itemvalue="TestNG.TestClass.Mac" />
-        <item itemvalue="TestNG.TestClass.Icloud" />
-        <item itemvalue="TestNG.TestClass.geniusBar" />
-        <item itemvalue="TestNG.TestClass.Card" />
+        <item itemvalue="TestNG.TestClass.IphoneAccessoriesTextTest" />
+        <item itemvalue="TestNG.TestClass.IPOD" />
+        <item itemvalue="TestNG.TestClass.Iphone14Pro" />
+        <item itemvalue="TestNG.TestClass.IphoneBuyOption" />
+        <item itemvalue="TestNG.TestClass.TestSupport" />
       </list>
     </recent_temporary>
   </component>

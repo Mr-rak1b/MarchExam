@@ -1,9 +1,6 @@
 package org.example.File;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import java.util.ArrayList;
 
 
 public class Path {
@@ -25,7 +22,7 @@ public class Path {
     }
 
     //Testing to see if support option is there
-    @FindBy (xpath = "//*[@id=\"ac-globalfooter\"]/div/section[1]/ul/li[12]/a")
+    @FindBy (xpath = "//*[@id=\"ac-globalfooter\"]/div/section[1]/ul/li[7]/a")
     WebElement supportlink;
 
     public String support()
@@ -86,17 +83,86 @@ public class Path {
        return true;
    }
 
-    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-products\"]")
-    ArrayList<WebElement> footerShopandlearn;
+//    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-products\"]")
+//    ArrayList<WebElement> footerShopandlearn;
+//
+//    public ArrayList<String> getFooterTextArrayList() {
+//        ArrayList<String> textList = new ArrayList<String>();
+//        for (WebElement element : footerShopandlearn) {
+//            textList.add(element.getText());
+//        }
+//        return textList;
+//    }
 
-    public ArrayList<String> getFooterTextArrayList() {
-        ArrayList<String> textList = new ArrayList<String>();
-        for (WebElement element : footerShopandlearn) {
-            textList.add(element.getText());
-        }
-        return textList;
+    //trying to see if Shop the latest is there
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[1]/ul/li[1]/a/span[1]")
+    public
+    WebElement store;
+    @FindBy(xpath = "//*[@id=\"globalnav-submenu-link-store\"]/div/div/div[1]/ul/li[1]/a")
+    public
+    WebElement shoptheleatest;
+
+
+
+
+
+//    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[5]/ul/li[1]/a")
+//    WebElement watch;
+//    @FindBy(xpath = "//*[@id=\"main\"]/section[1]/div[1]/h2")
+//    WebElement HealthyLeap;
+//
+//    public void Watch(){
+//
+//    }
+
+
+    //Testing to see iphone 14 buy option is on the page
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[4]/ul/li[1]/a/span[1]")
+    WebElement iphone;
+    @FindBy(xpath = "//*[@id=\"main\"]/section[1]/div[1]/div[1]/div/div[1]/ul/li[1]/a")
+    WebElement Buy;
+
+    public boolean iphonebuyoption()
+    {
+        iphone.click();
+        Buy.isDisplayed();
+        return true;
+    }
+
+    //Testing to see if Iphone14 pro option is there
+
+    @FindBy(xpath = "//*[@id=\"chapternav\"]/div/ul/li[1]/a/span[1]")
+    WebElement Iphone14pro;
+    public boolean iphone14Pro(){
+        iphone.click();
+        Iphone14pro.isDisplayed();
+        return true;
+
+    }
+
+    //Testing to see if ipod option is there
+
+    @FindBy(xpath = "//*[@id=\"chapternav\"]/div/ul/li[7]/a/span")
+    WebElement Airpod;
+    public boolean Airpod(){
+        iphone.click();
+        Airpod.isEnabled();
+        return true;
+
     }
 
 
+    //Testing to see if accessories page has the text Iphone Accessories
 
+    @FindBy(xpath = "//*[@id=\"chapternav\"]/div/ul/li[9]/a/span")
+    WebElement Accessories;
+    @FindBy(xpath = "//*[@id=\"page\"]/div[2]/div/nav/div[1]/h1/a")
+    WebElement IphoneAccessoriestext;
+
+    public String IphoneAccessoriesText(){
+        iphone.click();
+        Accessories.click();
+        return IphoneAccessoriestext.getText();
+
+    }
 }

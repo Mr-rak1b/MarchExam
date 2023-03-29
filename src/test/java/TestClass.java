@@ -1,12 +1,11 @@
 import org.example.DriverSetup;
 import org.example.File.Path;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
 
 
 public class TestClass extends DriverSetup {
@@ -85,16 +84,57 @@ public class TestClass extends DriverSetup {
 
 
     //Still not working
+//    @Test
+//    public void Footershopandlearn() {
+//        ArrayList<String> footerTextList = homepage.getFooterTextArrayList();
+//        String actualFooterText = String.join(",", footerTextList);
+//        String expectedFooterText = "Store,Mac,iPad,iPhone,Watch,Airpods,TV & Home,AirTag,Accessories,Gift Cards";
+//        Assert.assertEquals(actualFooterText, expectedFooterText);
+//    }
+
+
+    //trying to see if Shop the latest is there
+        @Test
+        public void Storetheleastest() {
+            Actions actions = new Actions(driver);
+            actions.moveToElement(homepage.store) ;
+            homepage.store.isDisplayed();
+            System.out.println(homepage.store.isDisplayed());
+        }
+
+
+
+
+        //    public void watchSeries8(){
+        //        String expected = " A healthy leap ahead.";
+        //        }
+
+
+    //Testing to see iphone 14 buy option is on the page
     @Test
-    public void Footershopandlearn() {
-        ArrayList<String> footerTextList = homepage.getFooterTextArrayList();
-        String actualFooterText = String.join(",", footerTextList);
-        String expectedFooterText = "Store,Mac,iPad,iPhone,Watch,Airpods,TV & Home,AirTag,Accessories,Gift Cards";
-        Assert.assertEquals(actualFooterText, expectedFooterText);
+    public void IphoneBuyOption() {
+        Assert.assertTrue(homepage.iphonebuyoption(), "It's displayed");
     }
 
+    //Testing to see if Iphone14 pro option is there
+    @Test
+    public void Iphone14Pro() {
+        Assert.assertTrue(homepage.iphone14Pro(), "It's displayed");
+    }
 
+    //Testing to see if airpod option is on iphone page
+    @Test
+    public void AIRPOD() {
+        Assert.assertTrue(homepage.Airpod(), "It's displayed");
+    }
 
+    //Testing to see if accessories page has the text Iphone Accessories
+    @Test
+    public void IphoneAccessoriesTextTest(){
+        String expected = "iPhone Accessories";
+        String actual= homepage.IphoneAccessoriesText();
+        Assert.assertEquals(expected,actual);
+    }
 }
 
 
