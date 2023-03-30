@@ -323,4 +323,34 @@ public class Path {
 
 
     //////////////////////////////////////////////////////////////////////Logo test done
+
+
+    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-education\"]/li[3]/a")
+    WebElement Shopforcollage;
+    @FindBy(xpath = "//*[@id=\"page\"]/div[2]/div[3]/h1")
+    WebElement Appleeducationpricing;
+
+    public String shopForcollage(){
+        Shopforcollage.click();
+        return Appleeducationpricing.getText();
+    }
+
+    @FindBy(css = "[data-analytics-title=\"apple and business\"]")
+    WebElement Appleandbusiness;
+    @FindBy(xpath = "//*[@id=\"ac-localnav\"]/div/div[2]/div[2]/div[1]/ul/li[5]/a")
+    WebElement Sucessstories;
+    @FindBy(xpath = "//*[@id=\"main\"]/section[2]/div/div/div[1]/h2")
+    WebElement AppshelpPlanes;
+    public String SuccessStorieslogo() throws InterruptedException {
+        Appleandbusiness.click();
+        Thread.sleep(5000);
+        Sucessstories.click();
+        return AppshelpPlanes.getText();
+    }
+
+
+
+
+
+
 }

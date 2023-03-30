@@ -216,6 +216,26 @@ public class TestClass extends DriverSetup {
     //////////////////////////////////////////////////////////////////////Logo test done
 
 
+    @Test
+    public void Shopforcollagetexttest(){
+        String x = "Save on a new Mac or iPad with Apple education pricing.";
+        Assert.assertEquals(x,homepage.shopForcollage());
+    }
+
+
+    @Test
+    public void successStories() throws InterruptedException {
+        String x = "Apps help planes, trains, and package-carrying vehicles.";
+        Assert.assertEquals(homepage.SuccessStorieslogo(),x);
+    }
+
+
+
+
+
+
+
+
 }
 
 
