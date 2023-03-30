@@ -53,7 +53,30 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass.IphoneAccessoriesTextTest">
+  <component name="RunManager" selected="TestNG.TestClass.ContactAppleLogo">
+    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="March.end.project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.ContactAppleLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="March.end.project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="ContactAppleLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClass.IPOD" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,37 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.IphoneBuyOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="IphoneBuyOption" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClass.TestSupport" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="TestSupport" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestClass.ContactAppleLogo" />
+        <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.TestClass.IphoneAccessoriesTextTest" />
         <item itemvalue="TestNG.TestClass.IPOD" />
         <item itemvalue="TestNG.TestClass.Iphone14Pro" />
-        <item itemvalue="TestNG.TestClass.IphoneBuyOption" />
-        <item itemvalue="TestNG.TestClass.TestSupport" />
       </list>
     </recent_temporary>
   </component>

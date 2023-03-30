@@ -22,13 +22,16 @@ public class Path {
     }
 
     //Testing to see if support option is there
-    @FindBy (xpath = "//*[@id=\"ac-globalfooter\"]/div/section[1]/ul/li[7]/a")
-    WebElement supportlink;
+    @FindBy (xpath = "//*[@id=\"footer-directory-column-section-about\"]/li[7]/a")
+    WebElement contactapple;
+    @FindBy(xpath = "//*[@id=\"main\"]/section[1]/div/div/h1")
+    WebElement contactingapplelogo;
 
-    public String support()
+    public String ContactApple()
     {
-        String Support = supportlink.getText();
-        return Support;
+        contactapple.click();
+       return contactingapplelogo.getText();
+
     }
 
 
@@ -37,7 +40,10 @@ public class Path {
     WebElement Search;
 
     public boolean search(){
-       return Search.isDisplayed();
+       if(Search.isDisplayed())
+           return true;
+       else
+           return false;
 
 
     }
@@ -60,8 +66,10 @@ public class Path {
 
     public boolean supportTest(){
         Supporttest.click();
-        getsupport.isDisplayed();
+        if(getsupport.isDisplayed())
             return true;
+        else
+            return false;
     }
 
     //Test to see if Genius bar is there
@@ -79,8 +87,10 @@ public class Path {
     WebElement icloud;
 
    public boolean Icloud(){
-       icloud.isEnabled();
+       if(icloud.isEnabled())
        return true;
+       else
+           return false;
    }
 
 //    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-products\"]")
@@ -125,8 +135,10 @@ public class Path {
     public boolean iphonebuyoption()
     {
         iphone.click();
-        Buy.isDisplayed();
+        if(Buy.isDisplayed())
         return true;
+        else
+            return false;
     }
 
     //Testing to see if Iphone14 pro option is there
@@ -135,8 +147,10 @@ public class Path {
     WebElement Iphone14pro;
     public boolean iphone14Pro(){
         iphone.click();
-        Iphone14pro.isDisplayed();
+       if(Iphone14pro.isDisplayed())
         return true;
+       else
+           return false;
 
     }
 
@@ -146,13 +160,16 @@ public class Path {
     WebElement Airpod;
     public boolean Airpod(){
         iphone.click();
-        Airpod.isEnabled();
+        if(Airpod.isEnabled())
         return true;
+        else
+            return false;
 
     }
 
 
     //Testing to see if accessories page has the text Iphone Accessories
+
 
     @FindBy(xpath = "//*[@id=\"chapternav\"]/div/ul/li[9]/a/span")
     WebElement Accessories;
@@ -165,4 +182,145 @@ public class Path {
         return IphoneAccessoriestext.getText();
 
     }
+
+    ///////////////////////////////////////////////////////////////Header logo test
+
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[1]/a")
+    WebElement applelogo;
+    public boolean AppleLogo()
+    {
+        if(applelogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[1]/ul/li[1]/a/span[1]")
+    WebElement storelogo;
+    public boolean StoreLogo()
+    {
+        if(storelogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[2]/ul/li[1]/a/span[1]")
+    WebElement maclogo;
+    public boolean MacLogo()
+    {
+        if(maclogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[3]/ul/li[1]/a/span[1]")
+    WebElement ipadlogo;
+    public boolean IpadLogo()
+    {
+        if(ipadlogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[4]/ul/li[1]/a/span[1]")
+    WebElement iphoneLogo;
+    public boolean IphoneLogo()
+    {
+        if(ipadlogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[5]/ul/li[1]/a/span[1]")
+    WebElement watchlogo;
+    public boolean WatchLogo()
+    {
+        if(watchlogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[6]/ul/li[1]/a/span[1]")
+    WebElement airpodlogo;
+    public boolean AirpodLogo()
+    {
+        if(airpodlogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[7]/ul/li[1]/a/span[1]")
+    WebElement tvandhomelogo;
+    public boolean TvandhomeLogo()
+    {
+        if(tvandhomelogo.isEnabled())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[8]/ul/li[1]/a/span[1]")
+    WebElement entertainmentlogo;
+    public boolean EntertainmentLogo()
+    {
+        if(entertainmentlogo.isEnabled())
+            return true;
+        else
+            return false;
+    }
+
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[9]/ul/li[1]/a/span[1]")
+    WebElement accessorieslogo;
+    public boolean AccessoriesLogo()
+    {
+        if(accessorieslogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[10]/ul/li[1]/a/span[1]")
+    WebElement supportlogo;
+    public boolean SupportLogo()
+    {
+        if(storelogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-menubutton-link-search\"]")
+    WebElement searchlogo;
+    public boolean SearchLogo()
+    {
+        if(searchlogo.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-menubutton-link-bag\"]")
+    WebElement cartlogo;
+    public boolean CartLogo()
+    {
+        if(card.isDisplayed())
+            return true;
+        else
+            return false;
+    }
+
+
+
+    //////////////////////////////////////////////////////////////////////Logo test done
 }

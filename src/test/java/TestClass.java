@@ -40,9 +40,9 @@ public class TestClass extends DriverSetup {
 
     //Testing to see if support option is there
     @Test
-    public void TestSupport() {
-        String expected = "support.apple.com/kb/HT209218";
-        Assert.assertEquals(expected, homepage.support());
+    public void ContactAppleLogo() {
+        String expected = "Contacting Apple";
+        Assert.assertEquals(expected, homepage.ContactApple());
     }
 
 
@@ -50,13 +50,13 @@ public class TestClass extends DriverSetup {
     @Test
     public void testSearchBarIsDisplayed() {
         boolean isDisplayed = homepage.search();
-        Assert.assertTrue(isDisplayed, "Search bar is not displayed.");
+        Assert.assertTrue(isDisplayed, "Search bar is displayed.");
     }
 
     //Test to see if you get support Start now is visible
     @Test
     public void supportTest() {
-        Assert.assertTrue(homepage.supportTest(), "It's not displayed");
+        Assert.assertTrue(homepage.supportTest(), "It's displayed");
     }
 
 
@@ -135,6 +135,87 @@ public class TestClass extends DriverSetup {
         String actual= homepage.IphoneAccessoriesText();
         Assert.assertEquals(expected,actual);
     }
+
+
+
+    ///////////////////////////////////////////////////////////////Header logo test
+
+    @Test
+    public void Applelogotest() {
+        Assert.assertTrue(homepage.AppleLogo(), "It's displayed");
+    }
+
+    @Test
+    public void Storelogotest() {
+        Assert.assertTrue(homepage.StoreLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void Maclogotest() {
+        Assert.assertTrue(homepage.MacLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void Ipadlogotest() {
+        Assert.assertTrue(homepage.IpadLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void Iphonelogotest() {
+        Assert.assertTrue(homepage.IphoneLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void Watchlogotest() {
+        Assert.assertTrue(homepage.WatchLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void AirPodlogotest() {
+        Assert.assertTrue(homepage.AirpodLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void TvandHomelogotest() {
+        Assert.assertTrue(homepage.TvandhomeLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void Entertanmentlogotest() {
+        Assert.assertTrue(homepage.EntertainmentLogo(), "It's displayed");
+    }
+
+    @Test
+    public void AccessoriesLogotest() {
+        Assert.assertTrue(homepage.AccessoriesLogo(), "It's displayed");
+    }
+
+
+    @Test
+    public void SupportLogotest() {
+        Assert.assertTrue(homepage.SupportLogo(), "It's displayed");
+    }
+
+    @Test
+    public void SearchLogotest() {
+        Assert.assertTrue(homepage.SearchLogo(), "It's displayed");
+    }
+
+    @Test
+    public void CartLogotest() {
+        Assert.assertTrue(homepage.CartLogo(), "It's displayed");
+    }
+
+    //////////////////////////////////////////////////////////////////////Logo test done
+
+
 }
 
 
