@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf3968c4-3bfc-43f8-b710-ac1bc9d6d776" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
     </list>
@@ -53,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass.successStories">
+  <component name="RunManager" selected="TestNG.TestClass.Recialequityjustice">
     <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.IphoneAccessoriesTextTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass.Recialequityjustice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="March.end.project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="IphoneAccessoriesTextTest" />
+      <option name="METHOD_NAME" value="Recialequityjustice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestClass.Recialequityjustice" />
+        <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.TestClass.successStories" />
         <item itemvalue="TestNG.TestClass.Shopforcollagetexttest" />
         <item itemvalue="TestNG.TestClass.ContactAppleLogo" />
-        <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="TestNG.TestClass.IphoneAccessoriesTextTest" />
       </list>
     </recent_temporary>
   </component>

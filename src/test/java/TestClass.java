@@ -1,11 +1,15 @@
 import org.example.DriverSetup;
 import org.example.File.Path;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+import java.util.Set;
 
 
 public class TestClass extends DriverSetup {
@@ -22,6 +26,9 @@ public class TestClass extends DriverSetup {
     void tearDown() {
         driver.quit();
     }
+
+
+
 
     //Testing to see if the Homepage load up
     @Test
@@ -229,8 +236,11 @@ public class TestClass extends DriverSetup {
         Assert.assertEquals(homepage.SuccessStorieslogo(),x);
     }
 
-
-
+    @Test
+    public void Recialequityjustice()
+    {
+        Assert.assertTrue(homepage.recialequityjustice());
+    }
 
 
 

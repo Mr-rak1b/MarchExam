@@ -349,7 +349,22 @@ public class Path {
     }
 
 
+    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-responsibility\"]/li[6]/a")
+    WebElement RacialEquityandJustice;
+    @FindBy(xpath = "//*[@id=\"main\"]/section[2]/div/div[2]/button/span[1]")
+    WebElement RJexpand;
+    @FindBy(xpath = "//*[@id=\"accordion-item1-tray\"]/div/div/p[3]")
+    WebElement Cj;
+    public boolean recialequityjustice()
+    {
+        RacialEquityandJustice.click();
+        RJexpand.click();
+        if(Cj.isDisplayed())
+            return true;
+        else
+            return false;
 
+    }
 
 
 
