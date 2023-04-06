@@ -1,6 +1,4 @@
 package org.example;
-
-import org.example.File.Path;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -19,6 +17,8 @@ public class DriverSetup {
 
 
     }
+
+
 
     void Timeout(WebDriver driver) {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf3968c4-3bfc-43f8-b710-ac1bc9d6d776" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DriverSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/File/Path.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
@@ -54,9 +55,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass.Recialequityjustice">
+  <component name="RunManager" selected="TestNG.TestClass">
     <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
+      <module name="Selenium0.2.FacebookLogIn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -66,11 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.ContactAppleLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
+    <configuration name="TestClass.PrivacyPolicy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium0.2.FacebookLogIn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="ContactAppleLogo" />
+      <option name="METHOD_NAME" value="PrivacyPolicy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,11 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.Recialequityjustice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
+    <configuration name="TestClass.WWDc23" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium0.2.FacebookLogIn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="Recialequityjustice" />
+      <option name="METHOD_NAME" value="WWDc23" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.Shopforcollagetexttest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
+    <configuration name="TestClass.selectSupport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium0.2.FacebookLogIn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="Shopforcollagetexttest" />
+      <option name="METHOD_NAME" value="selectSupport" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,11 +103,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.successStories" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="March.end.project" />
+    <configuration name="TestClass.shopAppleTvDisplay" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium0.2.FacebookLogIn" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
-      <option name="METHOD_NAME" value="successStories" />
+      <option name="METHOD_NAME" value="shopAppleTvDisplay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass.Recialequityjustice" />
         <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="TestNG.TestClass.successStories" />
-        <item itemvalue="TestNG.TestClass.Shopforcollagetexttest" />
-        <item itemvalue="TestNG.TestClass.ContactAppleLogo" />
+        <item itemvalue="TestNG.TestClass.PrivacyPolicy" />
+        <item itemvalue="TestNG.TestClass.shopAppleTvDisplay" />
+        <item itemvalue="TestNG.TestClass.selectSupport" />
+        <item itemvalue="TestNG.TestClass.WWDc23" />
       </list>
     </recent_temporary>
   </component>

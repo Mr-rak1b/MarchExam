@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>March.end.project</artifactId>
+    <artifactId>Selenium0.2.FacebookLogIn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,8 +15,6 @@
     </properties>
 
     <dependencies>
-
-
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -24,14 +22,16 @@
             <version>3.141.59</version>
         </dependency>
 
+
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.7.1</version>
+
         </dependency>
 
-    </dependencies>
 
+    </dependencies>
 
 </project>

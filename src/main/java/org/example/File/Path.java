@@ -93,16 +93,7 @@ public class Path {
            return false;
    }
 
-//    @FindBy(xpath = "//*[@id=\"footer-directory-column-section-products\"]")
-//    ArrayList<WebElement> footerShopandlearn;
-//
-//    public ArrayList<String> getFooterTextArrayList() {
-//        ArrayList<String> textList = new ArrayList<String>();
-//        for (WebElement element : footerShopandlearn) {
-//            textList.add(element.getText());
-//        }
-//        return textList;
-//    }
+
 
     //trying to see if Shop the latest is there
     @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[1]/ul/li[1]/a/span[1]")
@@ -112,18 +103,6 @@ public class Path {
     public
     WebElement shoptheleatest;
 
-
-
-
-
-//    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[5]/ul/li[1]/a")
-//    WebElement watch;
-//    @FindBy(xpath = "//*[@id=\"main\"]/section[1]/div[1]/h2")
-//    WebElement HealthyLeap;
-//
-//    public void Watch(){
-//
-//    }
 
 
     //Testing to see iphone 14 buy option is on the page
@@ -367,5 +346,59 @@ public class Path {
     }
 
 
+
+
+        @FindBy(xpath = "//*[@id=\"globalnav-menubutton-link-bag\"]")
+     WebElement shop;
+    @FindBy(xpath = "//*[@id=\"globalnav-submenu-bag\"]/div/div/div/div[1]/div/div/a")
+    WebElement signin;
+
+    public void Signintest(){
+    shop.click();
+    signin.click();
+    }
+
+    @FindBy (xpath = "/html/body/main/section[3]/div[1]/div/div/a")
+    WebElement wwdc23;
+
+    public void WWDC23(){
+        wwdc23.click();
+    }
+
+    @FindBy(xpath = "/html/body/div[1]/nav/div/ul/li[2]/div/div/div[10]/ul/li[1]/a/span[1]")
+    WebElement selectSupport;
+
+    @FindBy(css = "[data-analytics-title=\"get applecare+\"]")
+    WebElement applecareplus;
+
+    public WebElement selectsupport() {
+        return selectSupport;
+
+    }
+    public WebElement selectsupport1(){
+        return applecareplus;
+    }
+
+    @FindBy(xpath = "//*[@id=\"globalnav-list\"]/li[2]/div/div/div[7]/ul/li[1]/a/span[1]")
+    WebElement tv;
+    @FindBy (xpath = "//*[@id=\"globalnav-submenu-link-tv-home\"]/div/div/div[2]/ul/li[1]/a")
+    WebElement shopappletv;
+
+    public WebElement ShopappleTvdisplay(){
+        return tv;
+    }
+    public WebElement ShopappleTvdisplay1(){
+        return shopappletv;
+    }
+
+    @FindBy (xpath = "//*[@id=\"ac-globalfooter\"]/div/section[2]/div[3]/ul/li[1]/a")
+    WebElement PrivacyPolicy;
+
+    public boolean Privacypolicy(){
+        if(PrivacyPolicy.isDisplayed())
+            return true;
+        else
+            return false;
+    }
 
 }
